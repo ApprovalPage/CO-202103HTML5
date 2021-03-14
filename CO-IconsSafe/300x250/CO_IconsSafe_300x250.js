@@ -1415,79 +1415,79 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.ICONmhteal();
 	this.instance.setTransform(551.5,87.2,1.69,1.69);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:264.5},287).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:264.5},287,cjs.Ease.sineInOut).wait(1));
 
 	// baby2
 	this.instance_1 = new lib.ICONbabyblue();
 	this.instance_1.setTransform(534.45,38.4,1.84,1.84);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({x:217.45},287).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({x:217.45},287,cjs.Ease.sineInOut).wait(1));
 
 	// devices
 	this.instance_2 = new lib.ICONdevicesteal();
 	this.instance_2.setTransform(426,88,2.08,2.08);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({x:157},287).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({x:157},287,cjs.Ease.sineInOut).wait(1));
 
 	// preggo2
 	this.instance_3 = new lib.ICONpreggoblue();
 	this.instance_3.setTransform(392.9,34.8,1.82,1.82);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({x:103.9},287).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({x:103.9},287,cjs.Ease.sineInOut).wait(1));
 
 	// tooth
 	this.instance_4 = new lib.ICONtoothblue();
 	this.instance_4.setTransform(364.95,87,1.7,1.7);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({x:59.95},287).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({x:59.95},287,cjs.Ease.sineInOut).wait(1));
 
 	// xhand
 	this.instance_5 = new lib.ICONxhandteal();
 	this.instance_5.setTransform(300,29.95,1.59,1.59);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({x:31},287).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({x:31},287,cjs.Ease.sineInOut).wait(1));
 
 	// mh2
 	this.instance_6 = new lib.ICONmhteal();
 	this.instance_6.setTransform(284.5,87,1.69,1.69);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).to({x:-22.5},287).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).to({x:-22.5},287,cjs.Ease.sineInOut).wait(1));
 
 	// mask
 	this.instance_7 = new lib.ICONmaskteal();
 	this.instance_7.setTransform(241,26.05,1.69,1.69);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).to({x:-78},287).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).to({x:-78},287,cjs.Ease.sineInOut).wait(1));
 
 	// preggo1
 	this.instance_8 = new lib.ICONpreggoblue();
 	this.instance_8.setTransform(197,89.05,1.82,1.82);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).to({x:-113},287).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).to({x:-113},287,cjs.Ease.sineInOut).wait(1));
 
 	// xOR
 	this.instance_9 = new lib.ICONxOR();
 	this.instance_9.setTransform(147.95,29.05,2.15,2.15);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).to({x:-142.05},287).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).to({x:-142.05},287,cjs.Ease.sineInOut).wait(1));
 
 	// baby1
 	this.instance_10 = new lib.ICONbabyblue();
 	this.instance_10.setTransform(114.95,90.05,1.84,1.84);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).to({x:-305.05},287).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).to({x:-305.05},287,cjs.Ease.sineInOut).wait(1));
 
 	// steth
 	this.instance_11 = new lib.ICONstethblue();
 	this.instance_11.setTransform(58,35,2.24,2.24);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).to({x:-288,y:34},287).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).to({x:-288,y:34},287,cjs.Ease.sineInOut).wait(1));
 
 	// mh1
 	this.instance_12 = new lib.ICONmhteal();
 	this.instance_12.setTransform(-6,86,1.69,1.69);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).to({x:-176},287).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).to({x:-176},287,cjs.Ease.sineInOut).wait(1));
 
 	// HEAD1
 	this.instance_13 = new lib.HEAD1();
@@ -1552,7 +1552,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CO_IconsSafe_300x250_atlas_1.jpg?1615743994855", id:"CO_IconsSafe_300x250_atlas_1"}
+		{src:"images/CO_IconsSafe_300x250_atlas_1.jpg?1615745547774", id:"CO_IconsSafe_300x250_atlas_1"}
 	],
 	preloads: []
 };
