@@ -1320,13 +1320,13 @@ if (reversed == null) { reversed = false; }
 	this.instance_4 = new lib.HS_logo();
 	this.instance_4.setTransform(535.9,47.25,0.4,0.4,0,0,0,0.8,71.9);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(322).to({x:475.9},14).wait(6));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(322).to({x:475.9},14,cjs.Ease.quadIn).wait(6));
 
 	// CO logo
 	this.instance_5 = new lib.CO_v_color();
 	this.instance_5.setTransform(646.2,46.15,0.45,0.45,0,0,0,0.2,55.6);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(322).to({x:586.2},14).wait(6));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(322).to({x:586.2},14,cjs.Ease.quadIn).wait(6));
 
 	// CTA
 	this.instance_6 = new lib.BUTTON2();
@@ -1354,7 +1354,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CO_IconsSafe_728x90_atlas_1.jpg?1616866414093", id:"CO_IconsSafe_728x90_atlas_1"}
+		{src:"images/CO_IconsSafe_728x90_atlas_1.jpg?1616965330258", id:"CO_IconsSafe_728x90_atlas_1"}
 	],
 	preloads: []
 };
