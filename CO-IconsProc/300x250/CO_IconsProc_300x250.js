@@ -1534,7 +1534,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [0,340];
+	this.actionFrames = [0,341];
 	// timeline functions:
 	this.frame_0 = function() {
 		//if(!this.alreadyyExecuted){
@@ -1546,7 +1546,7 @@ if (reversed == null) { reversed = false; }
 		//gotoAndPlay(2);
 		//}
 	}
-	this.frame_340 = function() {
+	this.frame_341 = function() {
 		//if(!this.alreadyExecuted){
 		//this.alreadyExecuted=true;
 		//this.loopNum=1;
@@ -1559,7 +1559,7 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(340).call(this.frame_340).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(341).call(this.frame_341).wait(1));
 
 	// border
 	this.shape = new cjs.Shape();
@@ -1671,13 +1671,13 @@ if (reversed == null) { reversed = false; }
 	this.instance_13.setTransform(60.15,212,0.76,0.76,0,0,0,-0.8,0);
 	this.instance_13._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(340).to({_off:false},0).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(341).to({_off:false},0).wait(1));
 
 	// bkgd2 copy
 	this.instance_14 = new lib.BKGD();
 	this.instance_14.setTransform(150,300,1,1,0,0,0,0,217);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).to({y:78},340).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).to({y:78},341).wait(1));
 
 	// temp bkgd
 	this.shape_1 = new cjs.Shape();
@@ -1699,7 +1699,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CO_IconsProc_300x250_atlas_1.jpg?1615929698080", id:"CO_IconsProc_300x250_atlas_1"}
+		{src:"images/CO_IconsProc_300x250_atlas_1.jpg?1616358129499", id:"CO_IconsProc_300x250_atlas_1"}
 	],
 	preloads: []
 };
