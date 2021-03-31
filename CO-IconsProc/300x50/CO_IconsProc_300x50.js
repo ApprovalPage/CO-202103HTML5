@@ -26,7 +26,7 @@ lib.ssMetadata = [
 
 
 
-(lib.Grad_600x1200 = function() {
+(lib.Grad_600x1200v2 = function() {
 	this.initialize(ss["CO_IconsProc_300x50_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -914,7 +914,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.Grad_600x1200();
+	this.instance = new lib.Grad_600x1200v2();
 	this.instance.setTransform(-150,-83,0.5,0.5);
 
 	this.shape = new cjs.Shape();
@@ -1486,7 +1486,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CO_IconsProc_300x50_atlas_1.jpg?1616869524206", id:"CO_IconsProc_300x50_atlas_1"}
+		{src:"images/CO_IconsProc_300x50_atlas_1.jpg?1617148551537", id:"CO_IconsProc_300x50_atlas_1"}
 	],
 	preloads: []
 };
