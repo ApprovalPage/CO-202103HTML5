@@ -26,7 +26,7 @@ lib.ssMetadata = [
 
 
 
-(lib.Grad_600x1200 = function() {
+(lib.Grad_600x1200v2 = function() {
 	this.initialize(ss["CO_IconsSafe_728x90_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -936,7 +936,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.Grad_600x1200();
+	this.instance = new lib.Grad_600x1200v2();
 	this.instance.setTransform(-150,-83,0.5,0.5);
 
 	this.shape = new cjs.Shape();
@@ -1337,14 +1337,14 @@ if (reversed == null) { reversed = false; }
 
 	// bkgd
 	this.instance_7 = new lib.BKGD();
-	this.instance_7.setTransform(407.05,95,1.3567,1.3567,-89.9955,0,0,0,217.1);
+	this.instance_7.setTransform(321.15,95,1.3567,1.3567,-89.9955,0,0,0,217.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(342));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(363.5,-153.3,450.4,456);
+p.nominalBounds = new cjs.Rectangle(278,-153.3,450.5,456);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -1354,7 +1354,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CO_IconsSafe_728x90_atlas_1.jpg?1616965330258", id:"CO_IconsSafe_728x90_atlas_1"}
+		{src:"images/CO_IconsSafe_728x90_atlas_1.jpg?1617149571691", id:"CO_IconsSafe_728x90_atlas_1"}
 	],
 	preloads: []
 };
