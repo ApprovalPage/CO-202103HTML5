@@ -1635,7 +1635,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_18 = new lib.BKGD();
 	this.instance_18.setTransform(150,300,1,1,0,0,0,0,217);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_18).to({y:78},340).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_18).to({y:-8},340).wait(2));
 
 	// temp bkgd
 	this.shape_1 = new cjs.Shape();
@@ -1647,7 +1647,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-192.7,-97,778.9000000000001,697);
+p.nominalBounds = new cjs.Rectangle(-192.7,-183,778.9000000000001,783);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -1657,7 +1657,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/JCC_IconsSafe_300x250_atlas_1.jpg?1617913467050", id:"JCC_IconsSafe_300x250_atlas_1"}
+		{src:"images/JCC_IconsSafe_300x250_atlas_1.jpg?1617914183435", id:"JCC_IconsSafe_300x250_atlas_1"}
 	],
 	preloads: []
 };
