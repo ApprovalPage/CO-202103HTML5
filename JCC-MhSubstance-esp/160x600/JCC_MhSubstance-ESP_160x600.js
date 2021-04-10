@@ -1338,8 +1338,8 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/JCC_MhSubstance_ESP_160x600_atlas_P_1.png?1618088163447", id:"JCC_MhSubstance_ESP_160x600_atlas_P_1"},
-		{src:"images/JCC_MhSubstance_ESP_160x600_atlas_NP_1.jpg?1618088163447", id:"JCC_MhSubstance_ESP_160x600_atlas_NP_1"}
+		{src:"images/JCC_MhSubstance_ESP_160x600_atlas_P_1.png?1618090011437", id:"JCC_MhSubstance_ESP_160x600_atlas_P_1"},
+		{src:"images/JCC_MhSubstance_ESP_160x600_atlas_NP_1.jpg?1618090011437", id:"JCC_MhSubstance_ESP_160x600_atlas_NP_1"}
 	],
 	preloads: []
 };
